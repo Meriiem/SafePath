@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Voice-Activated Distress Command"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- EditText for Command -->
+    <EditText
+        android:id="@+id/et_command"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your distress command"
+        android:textSize="16sp"
+        android:padding="10dp"/>
+
+    <!-- Status Text -->
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waiting for command..."
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/holo_red_dark"/>
+
+    <!-- Button to test voice command -->
+    <Button
+        android:id="@+id/btn_test_command"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test Command"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Button to save voice command -->
+    <Button
+        android:id="@+id/btn_save_command"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Command"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Button to cancel and exit -->
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/holo_red_dark"/>
+
+</LinearLayout>

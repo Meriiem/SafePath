@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Soft Pink to Blue Shades -->
+    <color name="soft_pink">#F8B8D2</color>
+    <color name="soft_blue">#A7C7E7</color>
+    <color name="soft_beige">#F4E1D2</color>
+    <color name="soft_white">#FFFFFF</color>
+
+    <!-- Text and Background Colors -->
+    <color name="primary_text">#4A4A4A</color> <!-- Darker gray for better readability -->
+    <color name="background_color">#fcfefd</color> <!-- Beige background for a soft feel -->
+    <color name="button_background_color">#A7C7E7</color> <!-- Soft Blue button background -->
+
+    <!-- Accent Colors -->
+    <color name="accent_pink">#F8B8D2</color> <!-- Soft pink for accents like highlights or borders -->
+    <color name="accent_blue">#A7C7E7</color> <!-- Soft blue for accents or button hover states -->
+
+    <!-- Other Colors -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <color name="colorPrimary">#6200EE</color> <!-- You can change this to any color you want -->
+
+    <!-- You may want to define other colors like colorPrimaryDark or colorAccent -->
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_threat_detection.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tv_threat_detection_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Real-Time Threat Detection"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:gravity="center" />
+
+    <!-- Instructions -->
+    <TextView
+        android:id="@+id/tv_instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The app is listening for potential threats. Tap 'Start' to begin."
+        android:textSize="16sp"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="30dp" />
+
+    <!-- Threat Detection Status -->
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: Waiting for detection..."
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="20dp"
+        android:gravity="center" />
+
+    <!-- Detection Progress Bar -->
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        style="@android:style/Widget.ProgressBar.Small" />
+
+    <!-- Threat Level Indicator -->
+    <TextView
+        android:id="@+id/tv_threat_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Threat Level: Safe"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp" />
+
+    <!-- Start Button -->
+    <Button
+        android:id="@+id/btn_start_detection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Detection"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"/>
+
+    <!-- Stop Button -->
+    <Button
+        android:id="@+id/btn_stop_detection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Detection"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"/>
+
+    <!-- Threat History Button -->
+    <Button
+        android:id="@+id/btn_view_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Threat History"
+        android:textSize="18sp"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>

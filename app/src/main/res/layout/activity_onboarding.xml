@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- App Logo or Welcome Image -->
+    <ImageView
+        android:id="@+id/iv_tutorial_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_safepath_logo" />
+
+    <!-- Onboarding Text -->
+    <TextView
+        android:id="@+id/tv_tutorial_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to SafePath, your real-time safety companion!"
+        android:textSize="18sp"
+        android:paddingTop="20dp"
+        android:gravity="center"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tv_feature_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Real-Time Threat Detection"
+        android:textSize="16sp"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tv_feature_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voice-Activated Distress Signal"
+        android:textSize="16sp"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tv_feature_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Safe Route Guidance"
+        android:textSize="16sp"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:textAlignment="center" />
+
+    <!-- Location Permission Request -->
+    <Button
+        android:id="@+id/btn_location_permission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grant Location Permission"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_gravity="center" />
+
+    <!-- Microphone Permission Request -->
+    <Button
+        android:id="@+id/btn_microphone_permission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grant Microphone Permission"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_gravity="center" />
+
+    <!-- Finish Onboarding Button -->
+    <Button
+        android:id="@+id/btn_finish_onboarding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Started"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_gravity="center" />
+
+</LinearLayout>

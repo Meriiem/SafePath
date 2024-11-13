@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    android:scrollbars="vertical">
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/tv_settings_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-medium" />
+
+    <!-- Location Sharing Setting -->
+    <TextView
+        android:id="@+id/tv_location_sharing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location Sharing"
+        android:textSize="18sp"
+        android:textColor="#333"
+        android:layout_marginBottom="8dp" />
+
+    <Switch
+        android:id="@+id/sw_location_sharing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable Location Sharing"
+        android:checked="true" />
+
+    <!-- Notifications Setting -->
+    <TextView
+        android:id="@+id/tv_notifications"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notifications"
+        android:textSize="18sp"
+        android:textColor="#333"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <Switch
+        android:id="@+id/sw_notifications"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable Safety Alerts"
+        android:checked="true" />
+
+    <!-- Voice Activation Setting -->
+    <TextView
+        android:id="@+id/tv_voice_activation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voice Activation"
+        android:textSize="18sp"
+        android:textColor="#333"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <Switch
+        android:id="@+id/sw_voice_activation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable Voice Command"
+        android:checked="true" />
+
+    <!-- Privacy Settings -->
+    <TextView
+        android:id="@+id/tv_privacy_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Privacy Settings"
+        android:textSize="18sp"
+        android:textColor="#333"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <CheckBox
+        android:id="@+id/cb_location_privacy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keep Location Private" />
+
+    <CheckBox
+        android:id="@+id/cb_audio_privacy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disable Audio Sharing" />
+
+    <!-- Manage Trusted Contacts -->
+    <TextView
+        android:id="@+id/tv_manage_contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manage Trusted Contacts"
+        android:textSize="18sp"
+        android:textColor="#333"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btn_manage_contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manage Contacts"
+        android:layout_marginBottom="20dp" />
+
+    <!-- App Theme Setting -->
+    <TextView
+        android:id="@+id/tv_app_theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App Theme"
+        android:textSize="18sp"
+        android:textColor="#333"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <RadioGroup
+        android:id="@+id/rg_theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_light_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light Theme" />
+
+        <RadioButton
+            android:id="@+id/rb_dark_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dark Theme" />
+    </RadioGroup>
+
+    <!-- Help & Support -->
+    <TextView
+        android:id="@+id/tv_help_support"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help and Support"
+        android:textSize="18sp"
+        android:textColor="#333"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btn_help_support"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Support" />
+
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/btn_log_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:textColor="#D32F2F"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
